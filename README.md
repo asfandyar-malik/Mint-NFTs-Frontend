@@ -1,13 +1,31 @@
-# buildspace Mint Your Own NFT Collection
+# Mint Your Own NFT Collection
 
 ### **Welcome 👋**
-To get started with this course, clone this repo and follow these commands:
+You can runt his program using: 
 
 1. Run `npm install` at the root of your directory
 2. Run `npm run start` to start the project
 3. Start coding!
 
-### **Questions?**
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/courses/CO961ddb5f-f428-4608-9949-a9a2f461eb3f) and link your Discord account so you can get access to helpful channels and your instructor!
-# Mint-Nft-Frontend
-# Mint-NFTs-Frontend
+# Mint-NFTs
+For this website to talk to blockchain, we need to somehow connect our wallet to it. On website, you have a Connect Wallet button to connect your Wallet (MetaMask) to it.
+
+Our Contract code is on this repository: https://github.com/asfandyar-malik/Mint-NFTs-Contract 
+
+We need to deploy the contract(Check Readme.md of linked project), connect our wallet, and call our contract from this web app using the credentials we have access to now from Metamask!
+
+
+📂 ABI files
+The ABI file is something our web app needs to know how to communicate with our contract. The contents of the ABI file can be found in a fancy JSON file in your hardhat contract project:
+artifacts/contracts/MyEpicNFT.sol/MyEpicNFT.json
+
+We have to copy the content from your MyEpicNFT.json and then add it to MyEpicNFT.json file which is located at src/utils/MyEpicNFT.json
+
+
+# View-NFTs
+
+After NFT is minted, you can visualize your NFTs on the Rarible or Opensea marketplace!!
+
+The link for an NFT on Rarible looks like this:
+https://rinkeby.rarible.com/token/0xb6be7bd567e737c878be478ae1ab33fcf6f716e0:0
+
