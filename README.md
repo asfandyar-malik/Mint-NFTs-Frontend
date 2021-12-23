@@ -1,11 +1,10 @@
 # Mint Your Own NFT Collection
 
 ### **Welcome 👋**
-You can runt his program using: 
+You can run this program using: 
 
 1. Run `npm install` at the root of your directory
 2. Run `npm run start` to start the project
-3. Start coding!
 
 # Mint-NFTs
 For this website to talk to blockchain, we need to somehow connect our wallet to it. On website, you have a Connect Wallet button to connect your Wallet (MetaMask) to it.
@@ -14,6 +13,7 @@ Our Contract code is on this repository: https://github.com/asfandyar-malik/Mint
 
 We need to deploy the contract(Check Readme.md of linked project), connect our wallet, and call our contract from this web app using the credentials we have access to now from Metamask!
 
+All the NFTs minted can be seen on [Rinkeby](https://rinkeby.rarible.com/user/0xe59c75bc2559b7cb088ea57deeaaf481942f863e/owned) 
 
 📂 ABI files
 The ABI file is something our web app needs to know how to communicate with our contract. The contents of the ABI file can be found in a fancy JSON file in your hardhat contract project:
