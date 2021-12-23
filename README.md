@@ -29,3 +29,10 @@ After NFT is minted, you can visualize your NFTs on the Rarible or Opensea marke
 The link for an NFT on Rarible looks like this:
 https://rinkeby.rarible.com/token/0xb6be7bd567e737c878be478ae1ab33fcf6f716e0:0
 
+
+# Frontend Visuals
+
+![image](https://user-images.githubusercontent.com/4105873/147242723-323cf945-ba21-4ddb-aeb7-c7b6fbe049c3.png)
+
+
+
