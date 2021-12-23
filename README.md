@@ -6,6 +6,9 @@ You can run this program using:
 1. Run `npm install` at the root of your directory
 2. Run `npm run start` to start the project
 
+You just need above commands to run the whole project. All information below is just for information purposes. 
+
+
 # Mint-NFTs
 For this website to talk to blockchain, we need to somehow connect our wallet to it. On website, you have a Connect Wallet button to connect your Wallet (MetaMask) to it.
 
